@@ -15,6 +15,8 @@
 		B5711D6E2012FF0800017065 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5711D6D2012FF0800017065 /* main.m */; };
 		B5711D782012FF0900017065 /* ThreadDemo_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5711D772012FF0900017065 /* ThreadDemo_OCTests.m */; };
 		B5711D832012FF0900017065 /* ThreadDemo_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5711D822012FF0900017065 /* ThreadDemo_OCUITests.m */; };
+		B5711D92201300F800017065 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5711D91201300F800017065 /* TestTableViewController.m */; };
+		B5711D952013034700017065 /* NSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5711D942013034700017065 /* NSThreadViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		B5711D7E2012FF0900017065 /* ThreadDemo_OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadDemo_OCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5711D822012FF0900017065 /* ThreadDemo_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadDemo_OCUITests.m; sourceTree = "<group>"; };
 		B5711D842012FF0900017065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5711D90201300F800017065 /* TestTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		B5711D91201300F800017065 /* TestTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		B5711D932013034700017065 /* NSThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSThreadViewController.h; sourceTree = "<group>"; };
+		B5711D942013034700017065 /* NSThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSThreadViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				B5711D5F2012FF0800017065 /* AppDelegate.m */,
 				B5711D612012FF0800017065 /* ViewController.h */,
 				B5711D622012FF0800017065 /* ViewController.m */,
+				B5711D90201300F800017065 /* TestTableViewController.h */,
+				B5711D91201300F800017065 /* TestTableViewController.m */,
+				B5711D932013034700017065 /* NSThreadViewController.h */,
+				B5711D942013034700017065 /* NSThreadViewController.m */,
 				B5711D642012FF0800017065 /* Main.storyboard */,
 				B5711D672012FF0800017065 /* Assets.xcassets */,
 				B5711D692012FF0800017065 /* LaunchScreen.storyboard */,
@@ -268,6 +278,8 @@
 				B5711D632012FF0800017065 /* ViewController.m in Sources */,
 				B5711D6E2012FF0800017065 /* main.m in Sources */,
 				B5711D602012FF0800017065 /* AppDelegate.m in Sources */,
+				B5711D92201300F800017065 /* TestTableViewController.m in Sources */,
+				B5711D952013034700017065 /* NSThreadViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
